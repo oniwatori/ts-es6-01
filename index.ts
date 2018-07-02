@@ -4,6 +4,10 @@ class Startup {
         var message = `${name} have a nice day!
         asdasadsa`;
         console.log(message);
+        console.log("name:");
+        for (const iterator of name) {
+            console.log(iterator);
+        }
     }
 }
 Startup.main();
